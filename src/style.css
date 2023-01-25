@@ -1,0 +1,51 @@
+/* basic margins and padding */
+body {
+  margin: 2rem;
+  padding: 1rem;
+}
+
+/* style the input labels */
+label {
+  display: inline-block;
+  width: 100px;
+  /* text-align: right; */
+  margin-right: 10px;
+}
+
+/* style the date  */
+input[type="date"] {
+  width: 200px;
+  padding: 0.5rem;
+  /* margin: 8px 0; */
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* style the input submit */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* style the input button */
+input[type="button"] {
+  background-color: #dc3106;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}

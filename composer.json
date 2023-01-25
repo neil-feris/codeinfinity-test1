@@ -1,0 +1,20 @@
+{
+    "name": "neilf/test1",
+    "description": "proficiency-test-1",
+    "type": "project",
+    "require": {
+        "mongodb/mongodb": "^1.15",
+        "vlucas/phpdotenv": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neilf\\Test1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Neil Feris",
+            "email": "neil.feris@gmail.com"
+        }
+    ]
+}
